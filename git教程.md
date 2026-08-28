@@ -315,8 +315,49 @@ git commit
 git push
 ```
 
-  如果想放弃本次合并：
+#### 实例：一边修改文件，另一边停止跟踪文件
+
+本仓库的 PR #2 曾出现过一次 `modify/delete` 冲突：公共分支 `main` 修改了
+`.obsidian/workspace.json`，而 `fuurin` 分支为了避免同步个人界面配置，删除了 Git
+索引中的同一文件。Git 无法替作者判断应该保留公共分支的修改，还是采用源分支的删除，
+因此 GitHub 会继续提示冲突。
+
+  仅把文件写入 `.gitignore` 不能解决这类冲突。`.gitignore` 只阻止未被跟踪的文件在以后
+重新加入 Git，不会替已被跟踪的文件选择冲突结果。
+
+要解决 PR 的冲突，应在 PR 的源分支 `fuurin` 上合入最新的远端公共分支：
+
+```bash
+git switch fuurin
+git fetch origin
+git merge origin/main
+```
+
+这里使用 `origin/main`，因为它表示最近一次 `git fetch` 获取到的远端 `main` 状态；
+本地 `main` 可能仍然落后。发生冲突后，先用 `git status` 确认冲突文件。如果最终意图是
+停止跟踪个人工作区配置，应选择删除结果：
+
+```bash
+git rm .obsidian/workspace.json
+git commit
+git push
+```
+
+`git push` 会更新 `fuurin` 及其关联的 PR，不需要关闭或重新创建 PR。
+
+更新本地 `main` 是另一件事，并不是解除这个 PR 冲突的前提。需要同步本地 `main` 时，
+可以另外执行：
+
+```bash
+git switch main
+git pull --ff-only origin main
+```
+
+`--ff-only` 只允许本地 `main` 直接快进到远端位置；如果本地存在远端没有的提交，Git 会
+拒绝自动合并，从而避免在公共分支上意外产生合并提交。
+
+如果想放弃本次合并：
 
 ```bash
 git merge --abort
-  ```
+```
