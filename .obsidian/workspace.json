@@ -99,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "93be82e12f8abe94",
@@ -205,8 +204,11 @@
       "bases:新建数据库": false
     }
   },
-  "active": "4d07bb4dd78e3db8",
+  "active": "7a1588579265b017",
   "lastOpenFiles": [
+    "目标和价值观表.md",
+    "术语词表.md",
+    "思维模型架构表.md",
     "欢迎.md"
   ]
 }
