@@ -48,6 +48,57 @@ git push
 git log
 ```
 
+## 忽略本地配置
+
+`.gitignore` 是仓库根目录中的规则文件，不是 Git 命令。它用于避免把只属于个人设备的配置、缓存或临时文件提交到公共仓库。
+
+Obsidian 的 `.obsidian/` 同时包含个人界面配置和知识库的共享配置，不能直接忽略整个目录。本仓库只忽略主题、字体、窗口布局和标签页状态；插件开关、关系图等可能影响文章组织和共同使用方式的配置仍由 Git 跟踪。
+
+在仓库根目录的 `.gitignore` 中加入：
+
+```gitignore
+/.obsidian/appearance.json
+/.obsidian/workspace*.json
+```
+
+开头的 `/` 表示规则只作用于仓库根目录下的 `.obsidian/`。`workspace*.json` 同时覆盖桌面端和移动端可能生成的工作区状态文件。
+
+Markdown 文件中的 `tags` 等属性直接保存在 `.md` 文件里，不受以上忽略规则影响：
+
+```yaml
+---
+tags:
+  - 教程
+  - git
+---
+```
+
+如果这些个性化配置从未提交过，添加忽略规则后正常提交 `.gitignore` 即可：
+
+```bash
+git add .gitignore
+git commit
+git push
+```
+
+如果个性化配置已经被 Git 跟踪，仅修改 `.gitignore` 不会生效。需要逐项将它们从 Git 的索引中移除，不要解除整个 `.obsidian/` 的跟踪：
+
+```bash
+git rm --cached .obsidian/appearance.json
+git rm --cached .obsidian/workspace.json
+git add .gitignore
+git commit
+git push
+```
+
+`--cached` 只解除 Git 对这些文件的跟踪，不会删除执行命令者的本机文件。已经克隆过旧版本的协作者应在首次拉取这个变更前备份自己的个性化配置；从该变更开始，Git 不再记录这些文件，后续本地主题和工作区布局不会进入提交。
+
+检查某个文件是否已经被忽略：
+
+```bash
+git check-ignore -v .obsidian/workspace.json
+```
+
 ## 本地分支切换
 
 - 查看所有本地分支
