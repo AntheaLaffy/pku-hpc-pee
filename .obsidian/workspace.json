@@ -49,12 +49,14 @@
             "id": "a086181862f0d7e9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-28 18.34.23.excalidraw.md"
+                "file": "思维模型架构表.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-28 18.34.23.excalidraw"
+              "icon": "lucide-file",
+              "title": "思维模型架构表"
             }
           }
         ],
@@ -228,13 +230,13 @@
   },
   "active": "a086181862f0d7e9",
   "lastOpenFiles": [
-    "思维模型架构表.md",
-    "目标和价值观表.md",
-    "欢迎.md",
     "术语词表.md",
+    "目标和价值观表.md",
+    "Excalidraw/Drawing 2026-08-28 18.34.23.excalidraw.md",
+    "思维模型架构表.md",
+    "欢迎.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Excalidraw/Drawing 2026-08-28 18.34.23.excalidraw.md",
     "Excalidraw"
   ]
 }
