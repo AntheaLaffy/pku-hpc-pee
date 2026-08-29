@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思维模型架构表.md",
+                "file": "考研整体规划/面试设计的规律.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "思维模型架构表"
+              "title": "面试设计的规律"
             }
           }
         ],
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
+                "file": "考研整体规划/面试设计的规律.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Backlinks"
             }
           },
           {
@@ -191,7 +191,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "title": "All properties"
             }
           },
           {
@@ -200,21 +200,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md",
+                "file": "考研整体规划/面试设计的规律.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "30e155310ee0d773",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 367.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,19 +235,38 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "a086181862f0d7e9",
   "lastOpenFiles": [
-    "未命名.base",
-    "git教程.md",
-    "术语词表.md",
-    "目标和价值观表.md",
-    "Excalidraw/Drawing 2026-08-28 18.34.23.excalidraw.md",
-    "思维模型架构表.md",
-    "欢迎.md",
+    "考研整体规划/考研备考全流程.md",
+    "考研整体规划/习题设计的规律.md",
+    "考研整体规划/面试设计的规律.md",
+    "日常任务清单",
+    "目标和价值观表",
+    "术语词表",
+    "思维模型架构表",
+    "考研整体规划/习题资料汇总.md",
+    "考研整体规划/在线资源汇总.md",
+    "考研整体规划/自动化方案.md",
+    "公共表/思维模型架构表.md",
+    "公共表",
+    "考研整体规划",
+    "公共表/术语词表.md",
+    "templates/考研日常任务组-长劫.md",
     "Untitled.md",
+    "templates",
+    "templates.md",
+    "日常任务清单/长劫-日常任务清单",
+    "公共表/目标和价值观表.md",
+    "欢迎.md",
+    "git教程.md",
+    "bases.base",
+    "Excalidraw/Drawing 2026-08-28 18.34.23.excalidraw.md",
     "Untitled 1.md",
     "Excalidraw"
   ]
