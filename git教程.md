@@ -5,6 +5,20 @@ tags:
 ---
 > SIPOC |codex|----
 
+## 核心价值与思想
+
+git的最大价值在于高效协同工作
+
+git的核心思想是分布式管理系统，数据结构的模式是个单向只读图，多对一。
+
+推荐学习资料:（如果你不是只想用，也想了解背后的原理的话）
+
+  课程:https://missing-semester-cn.github.io/
+  作业:https://missing-semester-cn.github.io/
+  书籍:《Pro Git》
+  助教: Chatgpt大人
+  参考手册:https://github.com/AntheaLaffy/thu-hpc-pee/blob/main/git%E6%95%99%E7%A8%8B.md
+  Agent Skills:https://github.com/AntheaLaffy/the-missing-semester-skills
 ## 我们的协作结构是
 
 如月风铃:  fuurin 分支 ──PR──> AntheaLaffy/main
@@ -131,20 +145,20 @@ git remote
 
 - 添加上游仓库配置
 ```bash
-git remote add upstream https://github.com/AntheaLaffy/pku-hpc-pee.git
+git remote add upstream https://github.com/AntheaLaffy/thu-hpc-pee.git
 ```
 
 ---
 
 如月风铃作为仓库的拥有者只需要一个远程
 ```text
-origin -> AntheaLaffy/pku-hpc-pee
+origin -> AntheaLaffy/thu-hpc-pee
 ```
 
 长劫的 fork 需要两个远程
 ```text
 origin   -> Kisjerry/pku-hpc-pee
-upstream -> AntheaLaffy/pku-hpc-pee
+upstream -> AntheaLaffy/thu-hpc-pee
 ```
 
  其中：
@@ -199,15 +213,15 @@ AntheaLaffy/main
 
   如月风铃创建 PR 时选择：
   ```text
-  base repository: AntheaLaffy/pku-hpc-pee
+  base repository: AntheaLaffy/thu-hpc-pee
   base:            main
-  head repository: AntheaLaffy/pku-hpc-pee
+  head repository: AntheaLaffy/thu-hpc-pee
   compare:         fuurin
   ```
 
   长劫创建 PR 时选择：
 ```text
-  base repository: AntheaLaffy/pku-hpc-pee
+  base repository: AntheaLaffy/thu-hpc-pee
   base:            main
   head repository: Kisjerry/pku-hpc-pee
   compare:         main  
