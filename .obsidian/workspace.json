@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/考研日常任务组-长劫.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,12 +157,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "Outgoing links"
             }
           },
           {
@@ -177,7 +177,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "标签"
+              "title": "Tags"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/考研日常任务组-长劫.md",
+                "file": "test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -210,7 +210,7 @@
             }
           },
           {
-            "id": "30e155310ee0d773",
+            "id": "99d533c3f30a122b",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -224,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,14 +235,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "a086181862f0d7e9",
   "lastOpenFiles": [
+    "test.md",
+    "templates/考研日常任务组-长劫.md",
     "考研整体规划/在线资源汇总.md",
     "考研整体规划/习题设计的规律.md",
     "考研整体规划/习题资料汇总.md",
@@ -257,8 +259,6 @@
     "公共表",
     "考研整体规划",
     "公共表/术语词表.md",
-    "templates/考研日常任务组-长劫.md",
-    "Untitled.md",
     "templates",
     "templates.md",
     "日常任务清单/长劫-日常任务清单",
