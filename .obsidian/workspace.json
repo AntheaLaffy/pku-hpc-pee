@@ -8,59 +8,112 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a1588579265b017",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "d6af1d73c01c41b3",
+            "id": "45b1d5dba8f269c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "collector bin/任务组-子任务清单-长劫/日常写代码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "日常写代码"
             }
           },
           {
-            "id": "f8b4423a100a5ee1",
+            "id": "ee3154b0f3143715",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "collector bin/任务组-子任务清单-长劫/日常经验.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
-            "id": "a086181862f0d7e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/考研日常任务组-长劫.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "考研日常任务组-长劫"
+              "title": "日常经验"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
+      },
+      {
+        "id": "1b6c4e7858aff90d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c167a20409601220",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/考研日常任务组 templater-长劫.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "考研日常任务组 templater-长劫"
+            }
+          },
+          {
+            "id": "c8187471409f4730",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂谈/对考研的日常任务组的设计思考.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "对考研的日常任务组的设计思考"
+            }
+          },
+          {
+            "id": "26ca18a516d3866a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://chat.deepseek.com/share/5djlee7ydo3vr6ifji",
+                "title": "DeepSeek - 探索未至之境",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "DeepSeek - 探索未至之境"
+            }
+          },
+          {
+            "id": "44e055aa74876067",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://chat.deepseek.com/share/k0cuip39p297qp1wl9",
+                "title": "DeepSeek - 探索未至之境",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "DeepSeek - 探索未至之境"
+            }
+          },
+          {
+            "id": "1825b2fb20e9550b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/考研日常任务组 templater.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "考研日常任务组 templater"
+            }
+          }
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/考研日常任务组-长劫.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,12 +210,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "Outgoing links"
             }
           },
           {
@@ -177,7 +230,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "标签"
+              "title": "Tags"
             }
           },
           {
@@ -200,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/考研日常任务组-长劫.md",
+                "file": "templates/考研日常任务组 templater.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -210,7 +263,7 @@
             }
           },
           {
-            "id": "30e155310ee0d773",
+            "id": "99d533c3f30a122b",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -224,7 +277,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 338.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,39 +288,54 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open this week": false,
+      "periodic-notes:Open this month": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "a086181862f0d7e9",
+  "active": "1825b2fb20e9550b",
   "lastOpenFiles": [
-    "考研整体规划/在线资源汇总.md",
-    "考研整体规划/习题设计的规律.md",
-    "考研整体规划/习题资料汇总.md",
-    "考研整体规划/面试设计的规律.md",
-    "考研整体规划/考研备考全流程.md",
-    "日常任务清单",
-    "目标和价值观表",
-    "术语词表",
-    "思维模型架构表",
-    "考研整体规划/自动化方案.md",
-    "公共表/思维模型架构表.md",
-    "公共表",
-    "考研整体规划",
-    "公共表/术语词表.md",
-    "templates/考研日常任务组-长劫.md",
-    "Untitled.md",
-    "templates",
-    "templates.md",
-    "日常任务清单/长劫-日常任务清单",
-    "公共表/目标和价值观表.md",
-    "欢迎.md",
-    "git教程.md",
+    "templates/考研日常任务组 templater-长劫.md",
+    "templates/xxx 的 OKR 清单-总清单.md",
+    "templates/执行程序模板.md",
+    "templates/考研日常任务组 templater.md",
+    "日常任务清单/长劫-日常任务清单/2026-09-01.md",
+    "collector bin/任务组-子任务清单-长劫/月任务组-初始.md",
+    "collector bin/任务组-子任务清单-长劫/周任务组-初始.md",
+    "collector bin/任务组-子任务清单-长劫/日常做项目.md",
+    "collector bin/任务组-子任务清单-长劫/日常做题.md",
+    "collector bin/任务组-子任务清单-长劫/日常学习.md",
+    "collector bin/任务组-子任务清单-长劫/日常写代码.md",
+    "collector bin/任务组-子任务清单-长劫/日常社交.md",
+    "collector bin/任务组-子任务清单-长劫/日常经验.md",
+    "杂谈/对考研的日常任务组的设计思考.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/计算机学习清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/编码能力提升清单.md",
+    "OKR 清单/长劫的 OKR 清单/指导性清单储存/值得关注的政府网站和国际组织网站.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/高等数学清单.md",
+    "OKR 清单/长劫的 OKR 清单/指导性清单储存",
+    "OKR 清单/长劫的 OKR 清单/Untitled.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/考研相关项目清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/政治阅读清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/社交目标清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/高性能计算学习清单.md",
+    "OKR 清单/长劫的 OKR 清单/长劫的 OKR 清单-总清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/英语阅读文章清单.md",
+    "[AIInfraGuide.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存",
+    "杂谈/考研规划杂谈.base",
     "bases.base",
-    "Excalidraw/Drawing 2026-08-28 18.34.23.excalidraw.md",
-    "Untitled 1.md",
-    "Excalidraw"
+    "OKR 清单/长劫的 OKR 清单",
+    "日常执行程序",
+    "OKR 清单",
+    "杂谈/考研规划杂谈",
+    "杂谈",
+    "collector bin/任务组-子任务清单-长劫",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg"
   ]
 }

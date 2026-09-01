@@ -1,4 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "periodic-notes",
+  "templater-obsidian"
 ]
