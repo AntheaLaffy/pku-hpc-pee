@@ -1,5 +1,6 @@
 {
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "collector bin/任务组-子任务清单"
+  "newFileFolderPath": "collector bin/任务组-子任务清单",
+  "alwaysUpdateLinks": true
 }

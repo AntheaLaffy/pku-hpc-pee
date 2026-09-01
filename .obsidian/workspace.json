@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ee5feb244953b5d4",
+            "id": "45b1d5dba8f269c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OKR 清单/长劫的 OKR 清单/长劫的 OKR 清单-总清单.md",
+                "file": "collector bin/任务组-子任务清单-长劫/日常写代码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "长劫的 OKR 清单-总清单"
+              "title": "日常写代码"
+            }
+          },
+          {
+            "id": "ee3154b0f3143715",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "collector bin/任务组-子任务清单-长劫/日常社交.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "日常社交"
+            }
+          },
+          {
+            "id": "c167a20409601220",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日常任务清单/长劫-日常任务清单/2026-09-01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-01"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OKR 清单/长劫的 OKR 清单/长劫的 OKR 清单-总清单.md",
+                "file": "日常任务清单/长劫-日常任务清单/2026-09-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,48 +230,49 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "periodic-notes:Open this week": false,
-      "periodic-notes:Open this month": false
+      "periodic-notes:Open this month": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "ee5feb244953b5d4",
+  "active": "99d533c3f30a122b",
   "lastOpenFiles": [
-    "templates/xxx 的 OKR 清单-总清单.md",
-    "OKR 清单/长劫的 OKR 清单/长劫的 OKR 清单-总清单.md",
-    "日常执行程序/随机应变.md",
-    "OKR 清单/长劫的 OKR 清单",
-    "OKR 清单/长劫的 OKR 清单.md",
-    "日常执行程序/顺序执行.md",
-    "templates/执行程序模板.md",
-    "公共表/思维模型架构表.md",
-    "日常执行程序",
-    "templates/考研日常任务组-长劫.md",
-    "OKR 清单",
-    "8M30D-如月风铃.md",
-    "杂谈/考研规划杂谈/面试设计的规律.md",
-    "杂谈/考研规划杂谈/考研备考全流程.md",
-    "杂谈/考研规划杂谈/自动化方案.md",
-    "杂谈/考研规划杂谈/习题资料汇总.md",
-    "杂谈/考研规划杂谈/习题设计的规律.md",
-    "杂谈/考研规划杂谈/在线资源汇总.md",
-    "杂谈/考研规划杂谈.base",
-    "杂谈/考研规划杂谈",
-    "杂谈/对考研的日常任务组的设计思考.md",
-    "杂谈",
-    "日常做项目.md",
     "collector bin/任务组-子任务清单-长劫/日常经验.md",
+    "日常任务清单/长劫-日常任务清单/2026-09-01.md",
+    "杂谈/对考研的日常任务组的设计思考.md",
     "collector bin/任务组-子任务清单-长劫/日常社交.md",
-    "collector bin/任务组-子任务清单-长劫/日常学习.md",
     "collector bin/任务组-子任务清单-长劫/日常写代码.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/计算机学习清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/编码能力提升清单.md",
+    "collector bin/任务组-子任务清单-长劫/日常学习.md",
     "collector bin/任务组-子任务清单-长劫/日常做题.md",
+    "OKR 清单/长劫的 OKR 清单/指导性清单储存/值得关注的政府网站和国际组织网站.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/高等数学清单.md",
+    "OKR 清单/长劫的 OKR 清单/指导性清单储存",
+    "OKR 清单/长劫的 OKR 清单/Untitled.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/考研相关项目清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/政治阅读清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/社交目标清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/高性能计算学习清单.md",
+    "OKR 清单/长劫的 OKR 清单/长劫的 OKR 清单-总清单.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存/英语阅读文章清单.md",
+    "collector bin/任务组-子任务清单-长劫/日常做项目.md",
+    "templates/考研日常任务组 templater-长劫.md",
+    "[AIInfraGuide.md",
+    "templates/考研日常任务组 templater.md",
+    "templates/执行程序模板.md",
+    "templates/考研日常任务组 每日属性模板-长劫.md",
+    "Untitled.md",
+    "日常执行程序/顺序执行.md",
+    "OKR 清单/长劫的 OKR 清单/子清单储存",
+    "杂谈/考研规划杂谈.base",
+    "bases.base",
+    "OKR 清单/长劫的 OKR 清单",
+    "日常执行程序",
+    "OKR 清单",
+    "杂谈/考研规划杂谈",
+    "杂谈",
     "collector bin/任务组-子任务清单-长劫",
-    "collector bin",
-    "attachment bin/清华大学计算机科学与技术系2026年硕土统招生复试录取实施细则-清华大学计算机科学与技术系.pdf",
-    "attachment bin/计算机科学与技术系硕士研究生培养方案.pdf",
-    "Excalidraw/封装的设计说明.md",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
-    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
-    "欢迎.md"
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg"
   ]
 }
