@@ -1,4 +1,7 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "calendar",
+  "obsidian-day-planner",
+  "nldates-obsidian"
 ]
